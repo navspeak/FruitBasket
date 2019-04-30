@@ -7,7 +7,6 @@
 6. [Sample Input File](#SampleInput)
 
 
-
 <a name="problemStatement"></a>
 # Problem Statement
 Write a Java 8 program that takes a basket of items and outputs its total cost.
@@ -61,6 +60,7 @@ BUILD SUCCESSFUL in 2s
 
 <a name="Assumptions"></a>
 #Assumptions
+
 1. Only Fruits listed in the problem statement is supported. To support new fruit, it must be included in Fruit Enum
 2. Only currency supported is Indian Rupees
 3. Currently no provision is there to apply discount. But since price calculation is at one place in the basket, 
@@ -68,6 +68,7 @@ Strategies for Discount may be included in future.
 
 <a name="SampleInput"></a>
 #Sample Input File
+
 ```$xslt
 #<FruitName>,<Price In Rupees>,<quantity>,<unit>
 #Rule: You can either provide:
