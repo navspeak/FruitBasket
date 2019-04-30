@@ -1,0 +1,12 @@
+#<FruitName>,<Price In Rupees>,<quantity>,<unit>
+#Rule: You can either provide:
+# - Just the fruit name in which case 1 fruit with
+#   default price and unit will be picked
+# OR
+# - You need to provide all the above field mentioned in
+#   line one
+# NOTE - a # at the beginning of the line represents comment
+Banana,16,10,dozen
+Banana,100,10,kilogram
+Apple
+Peach,100,20,piece
