@@ -38,6 +38,9 @@ Total Price => 3220.0
 
 <a name="Junit"></a>
 # Junit Tests
+> NOTE: Following test creates a basket of fruit item with various prices and quantity.
+> and computes the total price:
+> *src/test/java/com/domain/BasketTest.java*
 1. a minimal set of Unit and integration tests can be found at
 `` 
 src/test/java/com/domain
