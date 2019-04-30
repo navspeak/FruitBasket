@@ -59,7 +59,7 @@ BUILD SUCCESSFUL in 2s
 5. testBasketPrice() Junit test shows how to use Item and Basket API to add items to a basket and get its total price
 
 <a name="Assumptions"></a>
-#Assumptions
+# Assumptions
 
 1. Only Fruits listed in the problem statement is supported. To support new fruit, it must be included in Fruit Enum
 2. Only currency supported is Indian Rupees
@@ -67,7 +67,7 @@ BUILD SUCCESSFUL in 2s
 Strategies for Discount may be included in future.
 
 <a name="SampleInput"></a>
-#Sample Input File
+# Sample Input File
 
 ```$xslt
 #<FruitName>,<Price In Rupees>,<quantity>,<unit>
