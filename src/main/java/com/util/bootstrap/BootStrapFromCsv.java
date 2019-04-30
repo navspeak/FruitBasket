@@ -84,7 +84,8 @@ public class BootStrapFromCsv {
                         System.out.println("Invalid line continuing to next...");
                     }
                     basket.addItem(item);
-                } catch (Exception e){
+                } catch (IllegalArgumentException e){
+                    System.out.println("Unsupported Type" + e.getMessage());
                     System.out.println("Invalid line continuing to next...");
                 }
             }

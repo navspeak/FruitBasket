@@ -16,6 +16,7 @@ public class Basket {
 
     public void addItem(Item item){
         Preconditions.checkNotNull(item, "Null item can't be added to a basket");
+        // If an item is already there in the set, we just need to increment its quantity
         if (items.contains(item)){
             items.stream().filter(i -> i.equals(item))
                     .findFirst().ifPresent(i->i.incrementQuantity());
@@ -25,6 +26,7 @@ public class Basket {
     }
 
 
+    // utility to print the basket in a verbose way
     public void printBasket() {
         StringBuilder sb = new StringBuilder();
         sb.append("This basket contain "+items.size())
@@ -44,6 +46,7 @@ public class Basket {
                 .reduce(BigDecimal.ZERO, BigDecimal::add);
     }
 
+    // Utility method. Useful in invoice priniting
     public void printTotalPrice(){
         System.out.println("Total Price => " + getTotalPrice());
     }
